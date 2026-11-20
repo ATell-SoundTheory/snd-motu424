@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: GPL-2.0-only
+config SND_MOTU424
+	tristate "MOTU PCI-424 / PCI-424X / PCIe-424 (experimental)"
+	depends on SND && PCI
+	select SND_PCM
+	help
+	  Experimental ALSA driver for the MOTU AudioWire PCI-424 family.
+	  Requires firmware extracted from the user's MOTU macOS installer.
+	  PCI-324 is not supported. Not yet validated on hardware.
+
+	  This is an in-tree integration snippet. The supplied Makefile
+	  builds an external module independently of this option.

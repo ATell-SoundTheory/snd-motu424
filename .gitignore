@@ -1,0 +1,17 @@
+.DS_Store
+/MAI_Win_66814.zip
+/MOTU Audio Installer 1.6 (73220).pkg
+/firmware/
+
+# External kernel module build output
+/linux/snd-motu424/*.o
+/linux/snd-motu424/*.ko
+/linux/snd-motu424/*.mod
+/linux/snd-motu424/*.mod.c
+/linux/snd-motu424/.*.cmd
+/linux/snd-motu424/Module.symvers
+/linux/snd-motu424/modules.order
+/linux/snd-motu424/.tmp_versions/
+
+__pycache__/
+*.pyc
